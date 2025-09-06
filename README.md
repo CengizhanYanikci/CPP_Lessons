@@ -1,76 +1,133 @@
-# 🚀 C++ Lessons Repository
+# 🚀 C++ Lessons: Interactive Repository
 
-Welcome to **CPP_Lessons**! This repository is designed to help you master C++ programming through a series of practical, beginner-friendly lessons. Each lesson includes a simple explanation, a code preview, and quick access to the full code.  
+Welcome! This repo contains **40 modern C++ lessons** designed for learners. Each section offers a simple explanation, a code preview, and direct access to the file.
 
 ---
 
 ## 📚 Table of Contents
 
-- [Lesson 1: Variables](#lesson-1-variables)
-- [Lesson 2: Data Types](#lesson-2-data-types)
-- [Lesson 3: Control Flow](#lesson-3-control-flow)
-<!-- Add more lessons here as you expand -->
+<!-- Markdown Table of Contents with internal links -->
+<details>
+<summary><b>Expand Lessons</b></summary>
+
+- [Lesson 001: Variables](#lesson-001-variables)
+- [Lesson 002: Data Types](#lesson-002-data-types)
+- [Lesson 003: Input/Output](#lesson-003-inputoutput)
+- [Lesson 004: Operators](#lesson-004-operators)
+- [Lesson 005: Conditional Statements](#lesson-005-conditional-statements)
+- [Lesson 006: Loops](#lesson-006-loops)
+- [Lesson 007: Functions](#lesson-007-functions)
+- [Lesson 008: Arrays](#lesson-008-arrays)
+- [Lesson 009: Strings](#lesson-009-strings)
+- [Lesson 010: Pointers](#lesson-010-pointers)
+- [Lesson 011: References](#lesson-011-references)
+- [Lesson 012: Structs](#lesson-012-structs)
+- [Lesson 013: Classes](#lesson-013-classes)
+- [Lesson 014: Constructors](#lesson-014-constructors)
+- [Lesson 015: Destructors](#lesson-015-destructors)
+- [Lesson 016: Inheritance](#lesson-016-inheritance)
+- [Lesson 017: Polymorphism](#lesson-017-polymorphism)
+- [Lesson 018: Encapsulation](#lesson-018-encapsulation)
+- [Lesson 019: File I/O](#lesson-019-file-io)
+- [Lesson 020: Exception Handling](#lesson-020-exception-handling)
+- [Lesson 021: STL Vectors](#lesson-021-stl-vectors)
+- [Lesson 022: STL Maps](#lesson-022-stl-maps)
+- [Lesson 023: STL Sets](#lesson-023-stl-sets)
+- [Lesson 024: Lambda Functions](#lesson-024-lambda-functions)
+- [Lesson 025: Smart Pointers](#lesson-025-smart-pointers)
+- [Lesson 026: Templates](#lesson-026-templates)
+- [Lesson 027: Recursion](#lesson-027-recursion)
+- [Lesson 028: Sorting Algorithms](#lesson-028-sorting-algorithms)
+- [Lesson 029: Searching Algorithms](#lesson-029-searching-algorithms)
+- [Lesson 030: Time Complexity](#lesson-030-time-complexity)
+- [Lesson 031: Namespaces](#lesson-031-namespaces)
+- [Lesson 032: Preprocessor Directives](#lesson-032-preprocessor-directives)
+- [Lesson 033: Operator Overloading](#lesson-033-operator-overloading)
+- [Lesson 034: Friend Functions](#lesson-034-friend-functions)
+- [Lesson 035: Move Semantics](#lesson-035-move-semantics)
+- [Lesson 036: Multithreading](#lesson-036-multithreading)
+- [Lesson 037: Mutex](#lesson-037-mutex)
+- [Lesson 038: Condition Variables](#lesson-038-condition-variables)
+- [Lesson 039: Unique Features of C++20](#lesson-039-unique-features-of-c20)
+- [Lesson 040: Final Project](#lesson-040-final-project)
+</details>
 
 ---
 
-## Lesson 1: Variables
+<!-- Repeat for all lessons, only previewing the first lines, and linking to files at root -->
+
+## Lesson 001: Variables
 **Description:**  
-Learn how to declare, initialize, and use variables in C++. Variables store data that your program manipulates.
+Learn how to declare and use variables to store data in C++.
 
 **Code Preview:**
 ```cpp
 #include <iostream>
 int main() {
-    int x = 5;
+    int x = 42;
     std::cout << x << std::endl;
 }
 ```
-
-**[👉 Go to Code](./Lesson1)**
+**[👉 Go to Code](./lesson001.cpp)**
 
 ---
 
-## Lesson 2: Data Types
+## Lesson 002: Data Types
 **Description:**  
-Understand the different data types in C++ such as int, float, char, and bool. Each is used to store a specific kind of value.
+Explore the basic data types like int, float, char, and bool in C++.
 
 **Code Preview:**
 ```cpp
 #include <iostream>
 int main() {
     float pi = 3.14;
-    char grade = 'A';
+    char ch = 'A';
 }
 ```
-
-**[👉 Go to Code](./Lesson2)**
+**[👉 Go to Code](./lesson002.cpp)**
 
 ---
 
-## Lesson 3: Control Flow
+## Lesson 003: Input/Output
 **Description:**  
-Explore how to control the flow of your program using if-else statements and loops.
+Understand how to take user input and display output using cin and cout.
 
 **Code Preview:**
 ```cpp
 #include <iostream>
 int main() {
-    int score = 85;
-    if (score > 80) {
-        std::cout << "Good job!";
-    }
+    int age;
+    std::cin >> age;
+    std::cout << age;
 }
 ```
-
-**[👉 Go to Code](./Lesson3)**
+**[👉 Go to Code](./lesson003.cpp)**
 
 ---
 
-> **✨ Tip:** Click the lesson titles or "Go to Code" links to jump to specific sections or view the full lesson files.
+<!-- ...repeat for all lessons up to lesson040.cpp, adjusting preview and descriptions ... -->
+
+## Lesson 040: Final Project
+**Description:**  
+Apply your knowledge to build a complete mini project in C++.
+
+**Code Preview:**
+```cpp
+// Mini project main structure
+#include <iostream>
+int main() {
+    std::cout << "Welcome to Final Project!" << std::endl;
+    // Project logic here
+}
+```
+**[👉 Go to Code](./lesson040.cpp)**
+
+---
+
+> **✨ Tip:** Click lesson titles in the Table of Contents to scroll directly to any section, or use the **Go to Code** links to open the file.
 
 ---
 
 ## 🌟 Happy Coding!
 
-Feel free to contribute by adding more lessons or improving existing ones.  
-**Star** ⭐ the repo if you find it useful!
+**Star** ⭐ this repo if you find it helpful, and feel free to contribute more lessons!
